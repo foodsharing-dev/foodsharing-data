@@ -29,6 +29,8 @@ class FoodsaverRepo extends Repository {
         $foodsaver->bezirk_id = $area_id;
 
         $foodsaver->save();
+
+        return $foodsaver;
         /*
 
 				`type`,
