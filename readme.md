@@ -43,7 +43,7 @@ class StoreController extends Controller
 
     public function profile() {
 
-        $store = $this->StoreRepo->find(123);
+        $store = $this->repo_store->find(123);
         
         return view('store',[
 		'store' => $store
